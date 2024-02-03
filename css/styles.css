@@ -700,11 +700,10 @@ img {
   fill: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
-.check-span:checked {
+input:checked + label > span {
   border: none;
   fill: #f4f4fd;
 }
-
 .check-icon {
   fill: #fff;
   width: 10px;
