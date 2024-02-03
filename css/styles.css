@@ -568,8 +568,8 @@ img {
 }
 .modal-close:hover,
 .modal-close:focus {
-  background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .modal-btn {
   border-radius: 4px;
@@ -673,6 +673,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  font-size: 12px;
 }
 
 .check-span {
@@ -692,9 +693,10 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
+  fill: #f4f4fd;
+  border: none;
 }
 .check-span span:checked {
-  fill: #f4f4fd;
 }
 .check-icon {
   fill: #fff;
