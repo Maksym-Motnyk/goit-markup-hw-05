@@ -634,6 +634,9 @@ img {
 .modal-icon:hover {
   fill: #4d5ae5;
 }
+.modal-icon:focus {
+  fill: #4d5ae5;
+}
 .modal-user-comment {
   margin-bottom: 16px;
 }
